@@ -9,9 +9,6 @@
 	<version>1.0.0-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
-	<name>belgif-openapi-employment-identifier</name>
-	<description>employment-identifier OpenAPI types</description>
-
 	<name>${project.groupId}:${project.artifactId}</name>
 	<description>OpenAPI data types related to employer identifiers</description>
 	<url>https://github.com/belgif/openapi-employment-identifier</url>
