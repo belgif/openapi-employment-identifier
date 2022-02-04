@@ -6,6 +6,6 @@ paths: {}
 definitions:
   EmployerId:
     description: Definitive or provisional NSSO number, assigned to each registered employer or local or provincial administration.
-    type: string
-    pattern: '^5?\d{9}$' # first digit 5 indicates a provisional NSSO number
-    example: '000100006'
+    type: integer
+    minimum: 0
+    maximum: 5999999999 # Provisional NSSO numbers start with 5, definitive numbers are maximum 9 digits long
